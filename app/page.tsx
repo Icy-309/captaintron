@@ -14,9 +14,7 @@ import {
   Globe,
 } from "lucide-react"
 import { AnimatedBackground } from "@/components/animated-background"
-import IframeComponent from  "@/components/ui/iframe"
 
-const chartUrl = "YOUR_CHART_URL_HERE"; // Replace this with the actual URL of your chart
 
 
 export default function Home() {
@@ -209,18 +207,10 @@ export default function Home() {
             </div>
           </div>
             
-          <div>
-      <h1 className="text-center text-2xl font-bold my-4">Memecoin Chart</h1>
-      <div className="mx-auto max-w-3xl py-12">
-      <IframeComponent src={chartUrl} />
-    </div>
-    </div>
-         
-
+        
         </section>
 
-
-
+      
         <section id="how-to-buy" className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
